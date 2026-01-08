@@ -1,0 +1,38 @@
+* {
+    color: #000000;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(inter.ttf);
+}
+
+.menu li {
+    display: inline;
+    padding-left: 32px;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#btn button {
+    padding: 12px 16px;
+    background-color: #469165;
+    border: 0px;
+    border-radius: 4px;
+    font-family: inter;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* section started */
+
