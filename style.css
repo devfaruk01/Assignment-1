@@ -44,6 +44,7 @@
     padding: 34px;
     min-height: 400px;
     margin-bottom: 0px;
+    background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
 }
 
 .h1 h1 {
@@ -52,6 +53,7 @@
     text-align: center;
     font-weight: 600;
     margin-bottom: 16px;
+    color: #ffffff;
     font-family: inter;
 }
 h1 .color {
@@ -64,6 +66,7 @@ h1 .color {
     padding: 0%;
     text-align: center;
     font-family: inter;
+    color: #ffffff;
 }
 
 .start-btn {
@@ -78,7 +81,7 @@ h1 .color {
     cursor: pointer;
     margin-bottom: 0%;
 }
-
+ 
 .see-btn {
     background-color: #ffffff;
     padding: 15px 46px 15px 16px  ;
@@ -147,12 +150,14 @@ h1 .color {
 }
 
 #parent01 .img03 {
-    width: 500px;
-    height: 500px;
-    border: 1px solid;
+    width: 600px;
+    height: 600px;
+    border-radius: 8px;
     align-items: center;
     display: flex;
+    margin-right: 60px;
     justify-content: center;
+    margin-left: 120px;
 }
 
 .container .p {
@@ -173,4 +178,8 @@ h1 .color {
 } 
 
 .container #p {
+    padding-right: 650px;
+    margin: 0%;
 }
+
+/* 4th section work */
