@@ -1,3 +1,6 @@
+* {
+    font-family: inter;
+}
 #header {
     display: flex;
     justify-content: space-around;
@@ -34,13 +37,13 @@
 /* section started */
 
 #hero {
-    background-image: url();
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
     padding: 34px;
     min-height: 400px;
+    margin-bottom: 0px;
 }
 
 .h1 h1 {
@@ -55,7 +58,7 @@ h1 .color {
     color: #30B868;
 }
 
-p {
+#hero p {
     font-size: 18px;
     width: 700px;
     padding: 0%;
@@ -73,6 +76,7 @@ p {
     border: 0;
     border-radius: 4px;
     cursor: pointer;
+    margin-bottom: 0%;
 }
 
 .see-btn {
@@ -86,8 +90,10 @@ p {
     border: 1px solid;
     border-radius: 4px;
     cursor: pointer;
+    margin-bottom: 0%;
 }
 
+/* second section Start */
 .hero-btn button {
     font-family: inter;
     font-size: 16px;
@@ -95,5 +101,76 @@ p {
     border-radius: 50px;
     border: 0;
     background-color: #ffffff;
+    padding: -px;
+}
+#second {
+    text-align: center;
+}
+.notes h2 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: inter;
+    margin-bottom: 16px;
+}
 
+.notes p {
+    font-size: 16px;
+    font-family: inter;
+    color: #627382;
+}
+
+.perent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 130px;
+}
+
+.child {
+    width: 322px;
+    height: 300px;
+    background-color: #ffffff;
+    box-shadow: 10px #33333321;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+#parent01 {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    padding: 25px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#parent01 .img03 {
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container .p {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #469165;
+    margin: 0;
+}
+
+.container h2 {
+    font-size: 48px;
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 600px;
+    margin: 16px;
+    padding: 0%;
+} 
+
+.container #p {
 }
